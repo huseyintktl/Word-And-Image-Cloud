@@ -1,0 +1,45 @@
+.body{
+    font-family: Roboto, sans-serif;
+}
+
+h1, h2, h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1px !important;
+}
+
+#wordCloudContainer {
+    outline: 1px solid #b8b8b84d;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 29px;
+}
+
+#wordCloudContainer h3 {
+    outline: 1px solid #b8b8b84d;
+    margin-bottom: 3px;
+    line-height: 37px;
+}
+
+#imageCloudContainer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 29px;
+    outline: 1px solid #b8b8b84d;
+}
+
+#imageCloudContainer h3 {
+    outline: 1px solid #b8b8b84d;
+    margin-bottom: 3px;
+    line-height: 37px;
+}
+
+#imageCloudContainer svg g image {
+    outline: 1px solid #b8b8b84d;
+}
+
+@media (max-width: 1200px) {
+    .col-6 {
+        width: 100% !important;
+    }
+}
