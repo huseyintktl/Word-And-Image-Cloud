@@ -28,7 +28,7 @@ class ImageCloud2 extends Component {
         return (
             <div>
                 <div id="imageCloudContainer" style={{height: 440}}>
-                    <h3>Görsel Bulutu</h3>
+                    <h3>Image Cloud</h3>
                     <div id="imageCloudSvgContainer" style={{height: 440}} ref={this.myReference}></div>
                 </div>
             </div>

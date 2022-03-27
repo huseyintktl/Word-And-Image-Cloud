@@ -11,7 +11,8 @@ export function getWordsToCloud() {
             .then(response => response.json())
             .then(result => {
                 dispatch(getWordsToCloudSuccess(result))
-            });
+            }).catch(err=>{
+                alert("Could not get words!")});
     };
 }
 

@@ -11,6 +11,7 @@ export function getImagesToCloud() {
             .then(response => response.json())
             .then(result => {
                 dispatch(getImagesToCloudSuccess(result))
-            });
+            }).catch(err=>{
+                alert("Could not get images")});
     };
 }

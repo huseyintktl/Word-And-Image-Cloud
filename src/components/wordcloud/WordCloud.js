@@ -61,7 +61,7 @@ function renderWords(words) {
 
     return (
         <div id="wordCloudContainer" style={{height: 440}}>
-            <h3>Sözcük Bulutu</h3>
+            <h3>Word Cloud</h3>
             <ReactWordCloud
                 words={words}
                 wordCountKey={WORD_COUNT_KEY}

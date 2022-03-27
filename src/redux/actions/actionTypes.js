@@ -1,3 +1,2 @@
-export const GET_BOOK = "GET_BOOK";
 export const GET_WORDS_TO_CLOUD = "GET_WORDS_TO_CLOUD";
 export const GET_IMAGES_TO_CLOUD = "GET_IMAGES_TO_CLOUD";
