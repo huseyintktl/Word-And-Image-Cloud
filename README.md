@@ -14,3 +14,4 @@ npm run start-json-server
 ```bash
 npm start
 ```
+![](public/images/preview1.png)
