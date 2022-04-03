@@ -1,4 +1,4 @@
-## Word-And-Image-Cloud
+## Word-And-Image-Cloud In React Language
 
 ### Setup
 ```bash
